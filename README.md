@@ -26,7 +26,7 @@ Go to [Docker Hub](https://hub.docker.com/_/jenkins/). View the Tags.
 docker search jenkins
 docker pull jenkins
 
-docker container run -d -p "8080:8080" -v "${PWD}/jenkins_home:/var/jenkins_home" --name my-jenkins jenkins
+docker container run -d -p "8080:8080" -v "jenkins_home:/var/jenkins_home" --name my-jenkins jenkins
 
 docker logs my-jenkins
 ```
