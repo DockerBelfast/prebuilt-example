@@ -12,6 +12,9 @@ git clone https://github.com/dockerbelfast/prebuilt-example.git
 cd prebuilt-example
 ls
 
+mkdir jenkins_home
+ls
+
 docker image ls
 ```
 
